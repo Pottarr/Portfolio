@@ -1,0 +1,37 @@
+.NavBar {
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: rgb(31, 68, 77);
+    height: 3rem;
+    margin: 0rem 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    position: fixed;
+    gap: 2rem;
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+.NavLink {
+    gap: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.Link {
+    text-decoration: none;
+    color: rgb(144, 145, 145);
+}
+
+.Link:hover {
+    color: rgb(143, 194, 194);
+}
+
+.Active {
+    color: rgb(41, 153, 153);
+}

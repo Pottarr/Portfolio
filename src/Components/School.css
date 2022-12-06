@@ -1,0 +1,21 @@
+.School {
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.TUP {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.TUP img {
+    width: 50%;
+    border-radius: 1rem;
+}
