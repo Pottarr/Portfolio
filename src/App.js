@@ -10,7 +10,7 @@ const App = () => {
 
             <NavBar />
             <Routes>
-                <Route path="/Porfolio" exact element={<AboutMe />} />
+                <Route path="/" exact element={<AboutMe />} />
                 <Route path="/School" element={<School />}/>
                 <Route path="*" element={<Page404 />} />
             </Routes>
